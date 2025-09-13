@@ -9,3 +9,5 @@ jobs:
       - name: checkout
         uses: actions/checkout@v5
 
+      - name: install dependencies
+        run: npm install
