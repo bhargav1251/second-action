@@ -13,4 +13,4 @@ jobs:
         run: |
           node -v
           npm -v
-          node --version
+          npm install
