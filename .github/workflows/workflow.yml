@@ -1,0 +1,11 @@
+name: workflow.yml
+on: push
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+
