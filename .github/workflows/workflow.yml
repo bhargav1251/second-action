@@ -18,3 +18,5 @@ jobs:
           node -v
           npm -v
           npm install
+      - name: run tests
+        run: npm test
